@@ -1,1 +1,1 @@
-#Employee Surver Form sederhana yang ditugaskan oileh ruang guru untuk penugasan HTML pertama
+#Employee Surver Form sederhana yang ditugaskan oleh ruang guru untuk penugasan HTML pertama
