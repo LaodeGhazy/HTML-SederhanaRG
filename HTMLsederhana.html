@@ -4,12 +4,13 @@
 <title>
 HTML Sederhana
 </title>
+<link rel="StyleSheet"
+type="text/css"href="style.css">
 <body>
-<script>
-console.log("Sup My G");
-</script>
+
 	<table  height="100%" width="100%" border="1" padding="10px">	
 			<td>
+			
 			
 	<!-- <p>
 		<b>Employee Survey Form</b>
@@ -17,9 +18,10 @@ console.log("Sup My G");
 <div class="h3">
 			<h3 style="background-color:#b3e1ee"><p>Employee Survey Form</p></h3>
 			</div>
-	<p>Nama Panjang        :<input type="text" placeholder="nama lengkap bang"></p>
-	<p>Jabatan           :<input type="password" placeholder="kerja apa bang"></p>
-	<p>Jenis Kelamin      :<label for="Laki-laki"><input id="Laki-laki" type="radio" name="Laki-laki-Perempuan" value="Laki-laki" checked> Laki-laki</label>
+    <div class="form-group">
+	<p>Nama Panjang        :<input class="aqua" type="text" placeholder="nama lengkap bang"></p>
+	<p>Jabatan             :<input class="aqua" type="password" placeholder="kerja apa bang"></p>
+	<p>Jenis Kelamin       :<label for="Laki-laki"><input id="Laki-laki" type="radio" name="Laki-laki-Perempuan" value="Laki-laki" checked> Laki-laki</label>
                            <label for="Perempuan"><input id="Perempuan" type="radio" name="Laki-laki-Perempuan" value="Perempuan" checked> Perempuan</label></P>
 	<p>Jam Kerja            :<select>
 									<option value="Teknik Kimia">07:00 - 10:00</option>
@@ -28,6 +30,7 @@ console.log("Sup My G");
 									<option value="Teknik Elektro">23:00 - 05:00</option>
 							</select>
 	</p>
+	</div>
     <p>Seberapa senang kamu bekerja di perusahaan ini :<select>
         <option value="Teknik Kimia">Cukup</option>
         <option value="Teknik Industri">Senang</option>
@@ -48,8 +51,11 @@ console.log("Sup My G");
         <option value="Informatika">Pas</option>
                             </select>
     </p>
-	<button type="registrasi">Submit</button>
-						</h3>
+	<div class="button">
+	<button>LOGIN</button>	
+</div>
+
+	  </div>
 			</td>
 		</tr>
 		<tr class="h2" >
